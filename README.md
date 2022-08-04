@@ -16,3 +16,10 @@
 
 
 ​          <a>&emsp;&emsp;&emsp;&emsp;爬取到的所有图片都会保存到G盘的图片文件夹中</a>
+
+<h3>&emsp;&emsp;界面图：
+
+
+
+​          ![image](https://github.com/3534358548/crawler/blob/main/%E7%95%8C%E9%9D%A2%E5%9B%BE.jpg)
+
