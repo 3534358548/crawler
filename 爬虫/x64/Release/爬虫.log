@@ -1,0 +1,16 @@
+﻿  爬虫.cpp
+G:\C语言\爬虫\爬虫\爬虫.cpp(272,30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(389,29): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(419,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(444,5): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(595,74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(597,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(611,81): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(613,74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+    正在创建库 G:\C语言\爬虫\x64\Release\爬虫.lib 和对象 G:\C语言\爬虫\x64\Release\爬虫.exp
+LINK : warning LNK4232: 名称 爬虫.exe 包含非 ASCII 字符，在具有除 936 以外的 ANSI 代码页的系统上可能不能加载 DLL
+  正在生成代码
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 1022 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  爬虫.vcxproj -> G:\C语言\爬虫\x64\Release\爬虫.exe

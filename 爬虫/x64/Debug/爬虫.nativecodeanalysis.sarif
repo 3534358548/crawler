@@ -1,0 +1,2187 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6800",
+          "message": {
+            "text": "通过 /analyze:ruleset 或 /analyze:external:ruleset 选项指定的规则集文件无法成功分析，将被忽略。"
+          },
+          "locations": []
+        },
+        {
+          "ruleId": "C6800",
+          "message": {
+            "text": "通过 /analyze:ruleset 或 /analyze:external:ruleset 选项指定的规则集文件无法成功分析，将被忽略。"
+          },
+          "locations": []
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "函数 file_path 可以声明为 noexcept (f.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 6,
+                  "endLine": 85,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "file_path",
+                  "decoratedName": "?file_path@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “sscanf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 2,
+                  "endLine": 159,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Analyse",
+                  "decoratedName": "?Analyse@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "避免显式调用 new 和 delete，请改用 std::make_unique<T> (r.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 39,
+                  "endLine": 152,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Analyse",
+                  "decoratedName": "?Analyse@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26400",
+          "message": {
+            "text": "请勿将包含owner<T>返回值的分配或函数调用结果分配给原始指针，请改用owner<T> (i.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 15,
+                  "endLine": 152,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Analyse",
+                  "decoratedName": "?Analyse@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26401",
+          "message": {
+            "text": "请勿删除不是 owner<T> 的原始指针(i.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 2,
+                  "endLine": 162,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Analyse",
+                  "decoratedName": "?Analyse@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "避免显式调用 new 和 delete，请改用 std::make_unique<T> (r.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 2,
+                  "endLine": 162,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Analyse",
+                  "decoratedName": "?Analyse@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "请勿使用指针算法。改用 span (bounds.1)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 7,
+                  "endLine": 157,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Analyse",
+                  "decoratedName": "?Analyse@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 g_Host: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 2,
+                  "endLine": 159,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Analyse",
+                  "decoratedName": "?Analyse@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 g_Object: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 2,
+                  "endLine": 159,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Analyse",
+                  "decoratedName": "?Analyse@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 g_Host: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 2,
+                  "endLine": 160,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Analyse",
+                  "decoratedName": "?Analyse@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 g_Object: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 2,
+                  "endLine": 161,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Analyse",
+                  "decoratedName": "?Analyse@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"p->h_addr_list[0]\" 可以是 \"0\"。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 2,
+                  "endLine": 198,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Connect",
+                  "decoratedName": "?Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 170,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 171,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 174,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 175,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 178,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 179,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 184,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 184,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 188,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 190,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 190,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 197,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 198,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 g_Host: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 15,
+                  "endLine": 178,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Connect",
+                  "decoratedName": "?Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "请勿使用指针算法。改用 span (bounds.1)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 184,
+                  "startColumn": 19,
+                  "endLine": 184,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Connect",
+                  "decoratedName": "?Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "请勿使用指针算法。改用 span (bounds.1)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 4,
+                  "endLine": 185,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Connect",
+                  "decoratedName": "?Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "请勿使用指针算法。改用 span (bounds.1)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 19,
+                  "endLine": 190,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Connect",
+                  "decoratedName": "?Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "请勿使用指针算法。改用 span (bounds.1)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 38,
+                  "endLine": 192,
+                  "endColumn": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Connect",
+                  "decoratedName": "?Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "请勿使用指针算法。改用 span (bounds.1)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 2,
+                  "endLine": 198,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Connect",
+                  "decoratedName": "?Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "函数 Connect 可以声明为 noexcept (f.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 6,
+                  "endLine": 167,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Connect",
+                  "decoratedName": "?Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "请勿使用 C 样式转换(type.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 49,
+                  "endLine": 192,
+                  "endColumn": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Connect",
+                  "decoratedName": "?Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "请勿使用 C 样式转换(type.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 38,
+                  "endLine": 202,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Connect",
+                  "decoratedName": "?Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "函数 SSL_Connect 可以声明为 noexcept (f.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 6,
+                  "endLine": 207,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SSL_Connect",
+                  "decoratedName": "?SSL_Connect@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 temp1: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 251,
+                  "startColumn": 2,
+                  "endLine": 251,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Gethtml",
+                  "decoratedName": "?Gethtml@@YA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 g_Object: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Gethtml",
+                  "decoratedName": "?Gethtml@@YA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 g_Host: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Gethtml",
+                  "decoratedName": "?Gethtml@@YA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 buff: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 267,
+                  "startColumn": 18,
+                  "endLine": 267,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Gethtml",
+                  "decoratedName": "?Gethtml@@YA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "只使用常量表达式在数组中编制索引(bounds.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 269,
+                  "startColumn": 3,
+                  "endLine": 269,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Gethtml",
+                  "decoratedName": "?Gethtml@@YA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 buff: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 270,
+                  "startColumn": 11,
+                  "endLine": 270,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Gethtml",
+                  "decoratedName": "?Gethtml@@YA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 buff: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 272,
+                  "startColumn": 3,
+                  "endLine": 272,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Gethtml",
+                  "decoratedName": "?Gethtml@@YA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "优先使用 gsl::at() 而非未选中的下标运算符(bounds.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 269,
+                  "startColumn": 3,
+                  "endLine": 269,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Gethtml",
+                  "decoratedName": "?Gethtml@@YA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "未初始化变量 buff。始终初始化对象(type.5)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 264,
+                  "startColumn": 7,
+                  "endLine": 264,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Gethtml",
+                  "decoratedName": "?Gethtml@@YA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "buff"
+          }
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "避免显式调用 new 和 delete，请改用 std::make_unique<T> (r.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 282,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UtfToGbk",
+                  "decoratedName": "?UtfToGbk@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26400",
+          "message": {
+            "text": "请勿将包含owner<T>返回值的分配或函数调用结果分配给原始指针，请改用owner<T> (i.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 282,
+                  "startColumn": 18,
+                  "endLine": 282,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UtfToGbk",
+                  "decoratedName": "?UtfToGbk@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "避免显式调用 new 和 delete，请改用 std::make_unique<T> (r.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 286,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UtfToGbk",
+                  "decoratedName": "?UtfToGbk@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26400",
+          "message": {
+            "text": "请勿将包含owner<T>返回值的分配或函数调用结果分配给原始指针，请改用owner<T> (i.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 286,
+                  "startColumn": 14,
+                  "endLine": 286,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UtfToGbk",
+                  "decoratedName": "?UtfToGbk@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26401",
+          "message": {
+            "text": "请勿删除不是 owner<T> 的原始指针(i.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 289,
+                  "startColumn": 12,
+                  "endLine": 289,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UtfToGbk",
+                  "decoratedName": "?UtfToGbk@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "避免显式调用 new 和 delete，请改用 std::make_unique<T> (r.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 289,
+                  "startColumn": 12,
+                  "endLine": 289,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UtfToGbk",
+                  "decoratedName": "?UtfToGbk@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 282,
+                  "startColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UtfToGbk",
+                  "decoratedName": "?UtfToGbk@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 283,
+                  "startColumn": 18,
+                  "endLine": 283,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UtfToGbk",
+                  "decoratedName": "?UtfToGbk@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 286,
+                  "startColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UtfToGbk",
+                  "decoratedName": "?UtfToGbk@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 287,
+                  "startColumn": 17,
+                  "endLine": 287,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UtfToGbk",
+                  "decoratedName": "?UtfToGbk@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "可在编译时计算常量变量“newsize”。请考虑使用 constexpr (con.5)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 296,
+                  "startColumn": 25,
+                  "endLine": 296,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stringToLPCWSTR",
+                  "decoratedName": "?stringToLPCWSTR@@YAPEB_WV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "变量“origsize”在构造后不会变化，请将其标记为 const (con.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 9,
+                  "endLine": 295,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stringToLPCWSTR",
+                  "decoratedName": "?stringToLPCWSTR@@YAPEB_WV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26408",
+          "message": {
+            "text": "避免使用 malloc()和 free()，首选 nothrow 版本的 new 与 delete (r.10)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 298,
+                  "startColumn": 32,
+                  "endLine": 298,
+                  "endColumn": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stringToLPCWSTR",
+                  "decoratedName": "?stringToLPCWSTR@@YAPEB_WV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "函数 stringToLPCWSTR 可以声明为 noexcept (f.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 293,
+                  "startColumn": 9,
+                  "endLine": 293,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stringToLPCWSTR",
+                  "decoratedName": "?stringToLPCWSTR@@YAPEB_WV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "请勿使用 C 样式转换(type.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 298,
+                  "startColumn": 22,
+                  "endLine": 298,
+                  "endColumn": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stringToLPCWSTR",
+                  "decoratedName": "?stringToLPCWSTR@@YAPEB_WV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6244",
+          "message": {
+            "text": "“number”的局部声明遮蔽了此前位于“25”行(“g:\\c语言\\爬虫\\爬虫\\爬虫.cpp”中)的声明。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 314,
+                  "startColumn": 6,
+                  "endLine": 314,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "results",
+                  "decoratedName": "?results@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "优先使用 gsl::at() 而非未选中的下标运算符(bounds.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 317,
+                  "startColumn": 31,
+                  "endLine": 317,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "results",
+                  "decoratedName": "?results@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "优先使用 gsl::at() 而非未选中的下标运算符(bounds.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 317,
+                  "startColumn": 17,
+                  "endLine": 317,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "results",
+                  "decoratedName": "?results@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "优先使用 gsl::at() 而非未选中的下标运算符(bounds.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 325,
+                  "startColumn": 11,
+                  "endLine": 325,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "results",
+                  "decoratedName": "?results@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "优先使用 gsl::at() 而非未选中的下标运算符(bounds.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 21,
+                  "endLine": 333,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "results",
+                  "decoratedName": "?results@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "优先使用 gsl::at() 而非未选中的下标运算符(bounds.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 8,
+                  "endLine": 333,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "results",
+                  "decoratedName": "?results@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "优先使用 gsl::at() 而非未选中的下标运算符(bounds.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 341,
+                  "startColumn": 22,
+                  "endLine": 341,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "results",
+                  "decoratedName": "?results@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "变量“len”在构造后不会变化，请将其标记为 const (con.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 381,
+                  "startColumn": 9,
+                  "endLine": 381,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "变量“nmlen”在构造后不会变化，请将其标记为 const (con.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 382,
+                  "startColumn": 6,
+                  "endLine": 382,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "变量“lenname”在构造后不会变化，请将其标记为 const (con.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 397,
+                  "startColumn": 9,
+                  "endLine": 397,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "变量“namelen”在构造后不会变化，请将其标记为 const (con.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 398,
+                  "startColumn": 6,
+                  "endLine": 398,
+                  "endColumn": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "变量“hr”在构造后不会变化，请将其标记为 const (con.4)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 403,
+                  "startColumn": 10,
+                  "endLine": 403,
+                  "endColumn": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "避免显式调用 new 和 delete，请改用 std::make_unique<T> (r.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 383,
+                  "startColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26400",
+          "message": {
+            "text": "请勿将包含owner<T>返回值的分配或函数调用结果分配给原始指针，请改用owner<T> (i.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 383,
+                  "startColumn": 20,
+                  "endLine": 383,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "避免显式调用 new 和 delete，请改用 std::make_unique<T> (r.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 399,
+                  "startColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26400",
+          "message": {
+            "text": "请勿将包含owner<T>返回值的分配或函数调用结果分配给原始指针，请改用owner<T> (i.11)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 399,
+                  "startColumn": 21,
+                  "endLine": 399,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 filename: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 389,
+                  "startColumn": 2,
+                  "endLine": 389,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 tempfp: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 390,
+                  "startColumn": 2,
+                  "endLine": 390,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 filename: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 391,
+                  "startColumn": 2,
+                  "endLine": 391,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 tempfp: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 391,
+                  "startColumn": 2,
+                  "endLine": 391,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 filename: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 392,
+                  "startColumn": 2,
+                  "endLine": 392,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 filename: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 393,
+                  "startColumn": 2,
+                  "endLine": 393,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "表达式 filename: 没有数组要进行指针转型(bounds.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+                },
+                "region": {
+                  "startLine": 396,
+                  "startColumn": 14,
+                  "endLine": 396,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Download",
+                  "decoratedName": "?Download@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "E:\\VS\\主程序\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF6BE139CC0 -il C:\\Users\\Lenovo\\AppData\\Local\\Temp\\_CL_0f7008dbast -typedil -f 爬虫.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\爬虫.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory G:\\C语言\\爬虫\\爬虫 -analyze:rulesetdirectory ;E:\\VS\\主程序\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset E:\\VS\\主程序\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin E:\\VS\\主程序\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I E:\\VS\\主程序\\VC\\Tools\\MSVC\\14.31.31103\\include -I E:\\VS\\主程序\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I E:\\VS\\主程序\\VC\\Auxiliary\\VS\\include -I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt -I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\um -I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\shared -I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt -I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt -I G:\\C语言\\爬虫\\爬虫\\Include\\um -external:I E:\\VS\\主程序\\VC\\Tools\\MSVC\\14.31.31103\\include -I E:\\VS\\主程序\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I E:\\VS\\主程序\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I E:\\VS\\主程序\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I E:\\VS\\主程序\\VC\\Auxiliary\\VS\\include -I E:\\VS\\主程序\\VC\\Auxiliary\\VS\\include -external:I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt -I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt -external:I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\um -I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\um -external:I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\shared -I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\shared -external:I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt -I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt -external:I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt -I E:\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt -external:I G:\\C语言\\爬虫\\爬虫\\Include\\um -I G:\\C语言\\爬虫\\爬虫\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///G:/C语言/爬虫/爬虫/爬虫.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8e242abbbe5406c31734ff4365f0743d0f6354e2021c8bbe809e71e1bc427afc"
+          }
+        }
+      ]
+    }
+  ]
+}

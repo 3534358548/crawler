@@ -1,0 +1,10 @@
+﻿  爬虫.cpp
+G:\C语言\爬虫\爬虫\爬虫.cpp(269,30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(386,29): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(416,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(441,5): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(592,74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(594,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(608,81): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\C语言\爬虫\爬虫\爬虫.cpp(610,74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  爬虫.vcxproj -> G:\C语言\爬虫\x64\Debug\爬虫.exe
